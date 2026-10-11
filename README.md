@@ -4,9 +4,10 @@ A full-stack web application that digitises the expense voucher process: employe
 
 Built as the Full Stack Developer Internship assignment (Expense Voucher Management System).
 
-- **Live demo:** `https://YOUR-APP.vercel.app` *(add your link)*
-- **Demo video:** `ADD-VIDEO-LINK`
-- **Repository:** `https://github.com/YOUR-USERNAME/expense-voucher-system`
+- **Live demo:** `https://expense-voucher-system-blush.vercel.app/login` *(add your link)*
+- **Demo video:** ``
+- **github Clone:  https://github.com/VaishnaviBhore2210/expense-voucher-system.git
+- **Repository:** `https://github.com/VaishnaviBhore2210/expense-voucher-system.git`
 
 ## Demo accounts
 | Role | Email | Password |
@@ -145,13 +146,13 @@ Base path `/api`. Protected routes need `Authorization: Bearer <token>`. Errors 
 **1. Database (Neon).** Create a free PostgreSQL project and copy the connection string. Create the tables and demo users from your machine:
 ```powershell
 cd backend
-$env:DATABASE_URL="<connection string>"
+$env:DATABASE_URL="<postgresql://neondb_owner:npg_2qvwBnhuyG9r@ep-billowing-water-b4xdncrf-pooler.c-6.us-east-2.aws.neon.tech/neondb?sslmode=require>"
 npm run db:init
 npm run seed
 ```
 **2. API (Render).** New Web Service from this repo: Root Directory `backend`, Build `npm install`, Start `npm start`. Environment: `DATABASE_URL`, `JWT_SECRET`, `CLIENT_URL` (your Vercel URL).
 
-**3. Frontend (Vercel).** In `frontend/vercel.json`, replace `YOUR-BACKEND-NAME.onrender.com` with your Render URL. Import the repo in Vercel, set Root Directory to `frontend`, and deploy. Vercel proxies `/api` to the Render API, so no CORS setup or frontend environment variables are needed.
+**3. Frontend (Vercel).** In `frontend/vercel.json`, replace `Yhttps://expense-voucher-system-uy9s.onrender.com/` with your Render URL. Import the repo in Vercel, set Root Directory to `frontend`, and deploy. Vercel proxies `/api` to the Render API, so no CORS setup or frontend environment variables are needed.
 
 ## Security notes
 - Passwords are hashed with bcrypt; sessions use signed JWTs that expire.
