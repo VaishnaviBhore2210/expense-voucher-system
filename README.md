@@ -170,3 +170,17 @@ npm run seed
 ## Possible improvements
 Pagination on the server, email notifications, audit history per voucher, PDF export, S3 storage for large attachments, automated tests, Docker setup.
 
+## Screenshots
+
+### Login
+![Login page](docs/screenshots/login.png)
+
+### Dashboard
+![Dashboard](docs/screenshots/dashboard.png)
+
+### Create voucher
+![New voucher form](docs/screenshots/voucher-form.png)
+
+### Director approval
+![Director approval](docs/screenshots/director-approval.png)
+
