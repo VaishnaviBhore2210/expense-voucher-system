@@ -5,7 +5,7 @@ A full-stack web application that digitises the expense voucher process: employe
 Built as the Full Stack Developer Internship assignment (Expense Voucher Management System).
 
 - **Live demo:** `https://expense-voucher-system-blush.vercel.app/login` *(add your link)*
-- **Demo video:** `https://drive.google.com/file/d/1mYQwqECMQgYjILrk_H8KDnlzTjvBAkQb/view?usp=sharing`
+- **Demo video:** `https://drive.google.com/drive/folders/1inaMZKgpiKS2gWBFPNov5OYPOH4719qz?usp=sharing`
 - **github Clone:  https://github.com/VaishnaviBhore2210/expense-voucher-system.git
 - **Repository:** `https://github.com/VaishnaviBhore2210/expense-voucher-system.git`
 
